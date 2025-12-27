@@ -6,7 +6,7 @@ export default function Docs() {
 
         <h4>Base URL</h4>
         <code className="api-box">
-          https://jsonwave.onrender.com/api/v1
+          https://jsonwave-8b5m.onrender.com/api/v1
         </code>
 
         <h4>Fetch Posts</h4>

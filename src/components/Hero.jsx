@@ -14,7 +14,7 @@ export default function Hero() {
 
         <div className="hero-buttons">
           <a href="#endpoints" className="btn primary">View Endpoints</a>
-          <a href="#" className="btn secondary">GitHub</a>
+          <a href="https://github.com/mayurpawar17/json-wave.git" className="btn secondary">GitHub</a>
         </div>
 
         <div className="api-box">
