@@ -1,16 +1,85 @@
-# React + Vite
+# 🌊 jsonwave — React Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern, minimal, and responsive React landing page** for **jsonwave**, a free fake REST API used for testing and prototyping applications.
 
-Currently, two official plugins are available:
+🔗 **Live API:** https://jsonwave.onrender.com/api/v1  
+🎨 **Frontend Repo:** https://github.com/mayurpawar17/json-wave-react
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ Built with React (Vite)
+- 🎨 Modern UI with Poppins font
+- 📱 Fully responsive (Mobile / Tablet / Desktop)
+- 🌙 Light & Dark mode support
+- 📄 Live API documentation section
+- 🧪 Code examples included
+- 🚀 Optimized for performance
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥 Live Preview
+
+> _(Add your deployed frontend URL here)_  
+Example:
+```text
+https://jsonwave-react.vercel.app
+
+
+## 📦 Tech Stack
+
+React + Vite
+
+CSS (Custom + Variables)
+
+Context API (Theme management)
+
+JavaScript (ES6+)
+
+## 📁 Project Structure
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Features.jsx
+│   ├── Docs.jsx
+│   ├── Endpoints.jsx
+│   ├── CTA.jsx
+│   └── Footer.jsx
+├── context/
+│   └── ThemeContext.jsx
+├── styles/
+│   ├── global.css
+│   └── dark.css
+├── App.jsx
+└── main.jsx
+```
+
+## 📚 API Documentation Section
+
+The app includes a built-in documentation UI with:
+
+Base URL
+
+Endpoint list
+
+CRUD support
+
+Pagination examples
+
+Live fetch examples
+
+
+## ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+
+🐛 Report issues
+
+🔀 Submit PRs
+
+Built with ❤️ by Mayur Pawar
