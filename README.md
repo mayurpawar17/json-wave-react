@@ -25,7 +25,7 @@ A **modern, minimal, and responsive React landing page** for **jsonwave**, a fre
 Example:
 ```text
 https://jsonwave-react.vercel.app
-
+```
 
 ## 📦 Tech Stack
 
