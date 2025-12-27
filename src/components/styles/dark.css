@@ -1,0 +1,16 @@
+body.dark {
+  /* Dark theme colors */
+  --bg: #020617;
+  --bg-soft: #020617;
+  --surface: #020617;
+
+  --text-main: #e5e7eb;
+  --text-muted: #94a3b8;
+
+  --border: #1e293b;
+
+
+
+    --code-bg: #f1f5f9;      /* light gray */
+  --code-text: #020617;    /* dark text */
+}

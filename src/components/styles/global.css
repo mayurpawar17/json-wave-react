@@ -1,0 +1,240 @@
+:root {
+  /* Brand */
+  --primary: #2563eb;
+
+  /* Light theme colors */
+  --bg: #ffffff;
+  --bg-soft: #f8fafc;
+  --surface: #ffffff;
+
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+
+  --border: #e5e7eb;
+
+  /* Code block (DARK MODE – OPPOSITE) */
+  --code-bg: #020617; /* dark bg */
+  --code-text: #e5e7eb; /* light text */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text-main);
+    line-height: 1.6;
+  }
+
+  section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  /* Navbar */
+  .navbar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .logo span {
+    color: var(--primary);
+  }
+
+  /* Hero */
+  .hero {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, var(--bg-soft), var(--bg));
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: clamp(1.8rem, 5vw, 2.4rem);
+  }
+
+  .hero p {
+    max-width: 600px;
+    margin: 1rem auto 2rem;
+    color: var(--text-muted);
+  }
+
+  /* Buttons */
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    padding: 0.7rem 1.6rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .primary {
+    background: var(--primary);
+    color: white;
+  }
+
+  .secondary {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+  }
+
+  /* API Box */
+  .api-box {
+    display: block; /* ✅ IMPORTANT */
+    margin: 0.75rem 0 1.5rem; /* spacing top & bottom */
+    background: var(--code-bg);
+    color: var(--code-text);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    overflow-x: auto;
+    line-height: 1.5;
+  }
+
+  /* Features */
+  .features {
+    padding: 4rem 0;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+
+  /* Endpoints */
+  .endpoints {
+    background: var(--bg-soft);
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .endpoint-list span {
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+
+  .endpoint-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  /* CTA */
+  .cta {
+    padding: 5rem 0;
+  }
+
+  .cta-box {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: #ffffff;
+    padding: 3.5rem 2rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.25);
+  }
+
+  .cta-box h3 {
+    font-size: clamp(1.6rem, 4vw, 2rem);
+    margin-bottom: 1rem;
+  }
+
+  .cta-box p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    opacity: 0.95;
+  }
+  .cta-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-primary {
+    background: #ffffff;
+    color: #2563eb;
+    font-weight: 600;
+  }
+
+  .cta-secondary {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+
+  body.dark .cta-box {
+    background: linear-gradient(135deg, #1e3a8a, #020617);
+  }
+
+  /* Footer */
+  .footer {
+    background: var(--code-bg);
+    color: var(--code-text);
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  /* Tablet */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 3rem 0;
+    }
+
+    .cta-box {
+      padding: 2rem 1.5rem;
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 480px) {
+    .nav-content {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+
+  #docs h3 {
+    margin-bottom: 2rem;
+  }
+
+  #docs h4 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #docs ul {
+    margin: 1rem 0 1.5rem;
+    padding-left: 1.2rem;
+  }
+
+  #docs li {
+    margin-bottom: 0.4rem;
+  }
+}
