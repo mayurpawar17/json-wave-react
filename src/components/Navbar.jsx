@@ -7,7 +7,8 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="container nav-content">
-        <h1 className="logo">🌊 JSON<span>Wave</span></h1>
+         <a href="https://jsonwave-react.netlify.app" className="logo-link"><h1 className="logo">🌊 JSON<span>Wave</span></h1></a>
+        
 
         <div style={{ display: "flex", gap: "1rem" }}>
           <a href="#docs" className="nav-btn">Docs</a>
